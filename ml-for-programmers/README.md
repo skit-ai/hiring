@@ -170,10 +170,10 @@ parse("hello world. let's meet on 3 Jan")
 
 5. **Inferring conversational flows from cases**
 
-For most of the conversational agent, we create a _flow_ based on the use case.
-A flow defines how call goes in the sense that it tells what does the bot do at
-every state of the call. This can be seen as a finite state machine (fsm) where
-we jump from state to state based on user's response.
+For many conversational agent use cases, we create a _flow_ based on the problem
+definition. A flow defines how conversations go in the sense that it tells what
+does the bot do at every _state_ of the call. This can be seen as a finite state
+machine (fsm) where we jump from state to state based on user's response.
 
 Task here is to infer the structure of such a flow based on examples of real
 conversations that happened using that flow. As an example, consider the
