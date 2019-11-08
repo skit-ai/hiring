@@ -1,7 +1,6 @@
 # ML role for Programmers
 
-> NOTE: The process is in the development so things here might change as we move
-> ahead little.
+> NOTE: The process is in development so things here might change.
 
 > The idea of a pair programming call is inspired from a similar method used by
 > [the Recurse Center](https://www.recurse.com/pairing-tasks).
