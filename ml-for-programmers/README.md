@@ -28,7 +28,7 @@ tasks which can be proposed to the candidate for the call.
   holding each by their programming ruff so that no background in ML is required
   to finish the task. If any context is indeed needed, we make sure to provide
   that during or before the call. The idea is to have everything easy to
-  conceptualized at a high level just by reading the description of each task
+  conceptualize at a high level just by reading the description of each task
   without knowing ML.
 * _Logistics_. We will do a screen sharing hangouts call which will be around 1
   hour. During/before the call, we will make sure to provide you with everything
