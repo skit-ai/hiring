@@ -6,4 +6,4 @@ listings can be seen on our [angel page](https://angel.co/vernacular-ai/jobs).
 TODO:
 + [ ] Job Descriptions with process.
 + [ ] Resources for ML Research Engineer role.
-+ [ ] Resources for ML for Programmers role.
++ [x] Resources for ML for Programmers role.
