@@ -226,12 +226,12 @@ example follows:
 #+begin_src python
   # Sequences are just made of characters here
   pool = [
-      ["c", "o", "w", "_", "e", "a", "t", "s"],
+      ["c", "o", "w", "_", "a", "t", "e"],
       ["d", "o", "g", "_", "b", "i", "t", "e", "s"],
       ["b", "l", "u", "e", "_", "m", "o", "o", "n"]
   ]
 
-  # This is the sequence we wan to compose using our pool
+  # This is the sequence we want to compose using our pool
   sent = ["c", "a", "t", "_", "g", "o", "o", "n"]
 
   # naive stitch (single char based)
