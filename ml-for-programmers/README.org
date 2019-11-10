@@ -1,0 +1,260 @@
+#+TITLE: ML role for Programmers
+
+#+BEGIN_QUOTE
+  NOTE: The process is in development so things here might change.
+#+END_QUOTE
+
+[[https://angel.co/company/vernacular-ai/jobs/650173-machine-learning-role-for-software-engineers][Job description]]. The interview process involves the following:
+
+1. A phone screening round.
+2. Programming round where we decide a problem beforehand and build it during a
+   1 hour screen-shared call.
+
+#+BEGIN_QUOTE
+The idea of a pair programming task list is inspired from a similar method used
+by [[https://www.recurse.com/pairing-tasks][the Recurse Center]].
+#+END_QUOTE
+
+In this document, we keep a few notes for the programming round and a list of
+tasks which can be proposed to the candidate for the call.
+
+** General instructions
+- A =task= is defined as specification of a program, the basic version of which
+  can be made within 30-40 mins. Basic version here doesn't have to perform
+  efficiently or correctly for all the possible cases. The code written just has
+  to convey that the general direction and approach is correct.
+- Since this role is for Machine Learning, we try to cover a few ML problems
+  holding each by their programming ruff so that no background in ML is required
+  to finish the task. If any context is indeed needed, we make sure to provide
+  that during or before the call. The idea is to have everything easy to
+  conceptualize at a high level just by reading the description of each task
+  without knowing ML.
+- /Logistics/. We will do a screen sharing video call which will be around 1 hour.
+  During/before the call, we will make sure to provide you with everything
+  needed, both definitions/answers and starter code snippets/resources etc.
+- /Completion/. The goal is to see how the candidate plans the solution and goes
+  ahead with the execution iteration by iteration. Most of which can be judged
+  by being agnostic of whether the task was completed. Notice that /iteration/ is
+  important as it helps us provide valuable early feedback during the call and
+  clarifies expectations.
+- /Scope/. We start with the scope defined in the task and keep expanding to fill
+  in the time by building/thinking about other extensions. Dynamic scope
+  expansion is an important piece of the process since it helps to see how
+  extensible or well designed the written program is.
+- Tests, comments etc. While these are important for more persistent pieces of
+  code, the candidate is free (and suggested) to skip these as we both are going
+  to be have live mental models of the programs and can just poke around by
+  questions/answers during the call.
+
+** Task List
+Note that many of these are half baked variations of certain real tasks and so
+can be improved. Feel free to suggest edits and improvements.
+
+*** Silence detection for audio streams
+A silence detection system is used by conversational systems to decide when to
+stop listening to the user. A very basic implementation keeps a window of audio
+samples and returns a binary value specifying 'the user has stopped' once
+certain volume criteria for the last time window is met.
+
+To elaborate on the samples bit, an audio stream is represented as samples each
+of which can be something like 16 bit integer, 32 bit float etc. These values
+are signed and represent volume (sign doesn't matter, the =abs= does). In Python,
+samples can be read easily using libraries like [[https://librosa.github.io][librosa]] as shown:
+
+#+begin_src python
+  import librosa
+  y, sr = librosa.load(filename)
+#+end_src
+
+The task is to make a program that takes a wav file with human speech and tells
+at what time the user stopped speaking. During the call, other than the main
+task we will be trying to cover various issues involved in windowing mechanisms
+and possible solutions for them.
+
+Not really required, but [[https://www.youtube.com/watch?v=FG9jemV1T7I][here]] is a nice introduction to digital media in
+general.
+
+*** Decoding words from pronunciations
+In speech recognition systems, a model (acoustic model) runs over the audio and,
+effectively, returns a list of phonemes (fundamental units of sounds; equivalent
+to characters for text). Each word is represented as a list of phonemes in what
+is called a pronunciation dictionary. Here is an example:
+
+#+BEGIN_EXAMPLE
+  // First token is word, next are the phoneme symbols showing
+  // how the word is said.
+  अँग्रेजी a mq g r ee j ii
+  अँधेरा a mq dh ee r aa
+  अँधेरे a mq dh ee r ee
+  अं a q
+  अंक a q k
+  अंकगणित a q k g a nx i t
+  अंकज्योतिषी a q k a j y o t i sx ii
+  अंकन a q k a n
+  अंकल a q k a l
+  अंकलेश्वर a q k l ee sh w a r
+#+END_EXAMPLE
+
+The task is to make a program which returns sequence of words given a sequence
+of phonemes for a complete utterance, without marked boundary between words, and
+a dictionary mapping words to phonemes.
+
+For example, for the above dictionary and the input =a mq g r ee j ii a q k a l=,
+the output can be =अँग्रेजी अंकल=. There are various ambiguities involved in decoding
+such strings which will be taken up during the call. We will also see how to fit
+in uncertainty information from the phoneme side or the words side.
+
+*** Statistical Language Model
+A language model (LM) tells the probability of a certain sentence being
+more/less likely roughly based on what the model has already seen and
+understands. The probability is low for texts which /surprise/ the model more. For
+example consider the following sentences used for training:
+
+#+BEGIN_EXAMPLE
+  i am a human
+  that is a cow
+  dogs are also human
+#+END_EXAMPLE
+
+If you use an LM trained on the texts above, and no other signal, to find the
+probability of =cat= or a phrase like =cat be hungry= you will get very low
+probabilities since these phrases were not even seen so the model is very
+surprised.
+
+There are many ways to implement systems which can be considered an LM. A simple
+way is to just do plain counting of tokens or words . These are called
+statistical LMs. For a /unigram/ (single token) LM, training essentially means
+counting of all the tokens independently in the whole training data and dividing
+by total tokens to get probabilities. For the above training sentences, a
+unigram LM can be made using something like the following in Python:
+
+#+BEGIN_SRC python
+  counts = {
+      "i": 1, "am": 1, "a": 2, "human": 2, "that": 1, "is": 1,
+      "cow": 1, "dogs": 1, "are": 1, "also": 1
+  }
+  total_tokens = sum(counts.values())
+  lm = {k: v / total_tokens for k, v in counts.items()}
+#+END_SRC
+
+The task is to create a program which takes a text file and creates an arbitrary
+n-gram LM. An n-gram LM counts not only single tokens, but also phrases made up
+of upto n tokens so a 3-gram model will count single words, pairs, triplets etc.
+During the call we will extend the base counting model, after building it, to
+handle many of the practical implementation and semantic issues.
+
+*** Composable rule parser 
+Task here is to write a system that lets us create regex rules allowing
+composition. For example, assuming a yaml representation, we should be able to
+specifies rules like the following:
+
+#+BEGIN_EXAMPLE
+  num:
+    - \d
+  date:
+    - <num> (Jan|Feb|...)
+    - tomorrow|today
+  datetime:
+    - on <date> at <num> (pm|am)
+#+END_EXAMPLE
+
+The program will take rules from such a file and provide a =parse= API which might
+look like this:
+
+#+BEGIN_SRC python
+  parse("hello world. let's meet on 3 Jan")
+  # [("date", "3 Jan")]
+#+END_SRC
+
+We will build and extend this model to handle more data driven approaches during
+the call.
+
+*** Inferring conversational flows from cases
+For many conversational agent use cases, we create /flows/ based on the problem
+definition. A flow defines how conversations go by defining what a bot does at
+each /state/ of the call. This can be seen as a finite state machine (fsm) where
+we jump from state to state based on user's response.
+
+Task here is to infer the structure of such a flow or fsm based on examples of
+real conversations. As an example, consider the following conversations:
+
+#+BEGIN_EXAMPLE
+  BOT: hello
+  USER: get me a human
+  BOT: transferring
+
+  BOT: hello
+  USER: hello
+  BOT: bye
+
+  BOT: hola
+  USER: hello
+  BOT: bye
+#+END_EXAMPLE
+
+Looking at these two, I can infer the following flow:
+
+#+BEGIN_EXAMPLE
+  hello
+    + <u>get me a human
+      + tranferring
+  hola|hello
+    + <u>hello
+      + bye
+#+END_EXAMPLE
+
+The program takes (two party) conversations in json and returns a possible json
+representation of the underlying flow. We will use output from a simulator [[https://github.com/Vernacular-ai/ink-simulator][here]]
+as conversations. Notice that while the above example is easy to parse as a
+tree, real flows might have various nuances which we will cover during the call.
+
+*** Segment stitcher for text to speech
+Stitching in this context means concatenating pieces of audio segments to make
+full audio for a given sentence.
+
+For example, if we have a set of audio clips by a person saying digits from 0 to
+9, we can make audio for a number like 35 (say) by just joining 3 and 5's audio.
+While we can ask the speaker to record everything needed deliberately, we will
+reduce the effort by asking the person to speak a larger set of uncurated
+sequences which, hopefully, cover all the fundamental subsequences that we care
+about.
+
+Any arbitrary sequence stitched using this pool of recordings will sound more
+natural when it is composed of large chunks of continuous subsequnces. An
+example follows:
+
+#+begin_src python
+  # Sequences are just made of characters here
+  pool = [
+      ["c", "o", "w", "_", "e", "a", "t", "s"],
+      ["d", "o", "g", "_", "b", "i", "t", "e", "s"],
+      ["b", "l", "u", "e", "_", "m", "o", "o", "n"]
+  ]
+
+  # This is the sequence we wan to compose using our pool
+  sent = ["c", "a", "t", "_", "g", "o", "o", "n"]
+
+  # naive stitch (single char based)
+  [["c"], ["a"], ["t"], ["_"], ["g"], ["o"], ["o"], ["n"]]
+
+  # better stitch (using bigger subsequnces from pool)
+  [["c"], ["a", "t"], ["_"], ["g"], ["o", "o", "n"]]
+#+end_src
+
+The stitcher program works with such a pool of sentences represented as phoneme
+symbols (fundamental units of sounds, like characters) which supposedly have
+their audio files somewhere accessible marked with timing information of each
+phoneme (we don't use these). When a new sentence comes in, represented as a
+sequence of phonemes, the program tries to look up in the pool, finds the best
+segments to stitch together and plays them sequentially.
+
+For our purpose, the program will only return a plan of stitching specifying
+things like:
+
+- pick =8= to =17= symbols from pool sentence 1
+- then =3= to =5= from pool sentence 2
+- and =1= to =1= from sentence 3.
+
+During the call we will try to build and extend this covering issues which
+constraint pronunciations and therefore the definition of /good/ subsequences to
+stitch.
