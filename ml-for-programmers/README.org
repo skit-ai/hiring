@@ -50,7 +50,7 @@ tasks which can be proposed to the candidate for the call.
 Note that many of these are half baked variations of certain real tasks and so
 can be improved. Feel free to suggest edits and improvements.
 
-*** Silence detection for audio streams
+*** 1. Silence detection for audio streams
 A silence detection system is used by conversational systems to decide when to
 stop listening to the user. A very basic implementation keeps a window of audio
 samples and returns a binary value specifying 'the user has stopped' once
@@ -74,7 +74,7 @@ and possible solutions for them.
 Not really required, but [[https://www.youtube.com/watch?v=FG9jemV1T7I][here]] is a nice introduction to digital media in
 general.
 
-*** Decoding words from pronunciations
+*** 2. Decoding words from pronunciations
 In speech recognition systems, a model (acoustic model) runs over the audio and,
 effectively, returns a list of phonemes (fundamental units of sounds; equivalent
 to characters for text). Each word is represented as a list of phonemes in what
@@ -104,7 +104,7 @@ the output can be =अँग्रेजी अंकल=. There are various amb
 such strings which will be taken up during the call. We will also see how to fit
 in uncertainty information from the phoneme side or the words side.
 
-*** Statistical Language Model
+*** 3. Statistical Language Model
 A language model (LM) tells the probability of a certain sentence being
 more/less likely roughly based on what the model has already seen and
 understands. The probability is low for texts which /surprise/ the model more. For
@@ -143,7 +143,7 @@ of upto n tokens so a 3-gram model will count single words, pairs, triplets etc.
 During the call we will extend the base counting model, after building it, to
 handle many of the practical implementation and semantic issues.
 
-*** Composable rule parser 
+*** 4. Composable rule parser 
 Task here is to write a system that lets us create regex rules allowing
 composition. For example, assuming a yaml representation, we should be able to
 specifies rules like the following:
@@ -169,7 +169,7 @@ look like this:
 We will build and extend this model to handle more data driven approaches during
 the call.
 
-*** Inferring conversational flows from cases
+*** 5. Inferring conversational flows from cases
 For many conversational agent use cases, we create /flows/ based on the problem
 definition. A flow defines how conversations go by defining what a bot does at
 each /state/ of the call. This can be seen as a finite state machine (fsm) where
@@ -208,7 +208,7 @@ representation of the underlying flow. We will use output from a simulator [[htt
 as conversations. Notice that while the above example is easy to parse as a
 tree, real flows might have various nuances which we will cover during the call.
 
-*** Segment stitcher for text to speech
+*** 6. Segment stitcher for text to speech
 Stitching in this context means concatenating pieces of audio segments to make
 full audio for a given sentence.
 
