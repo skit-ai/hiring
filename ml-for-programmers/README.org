@@ -146,7 +146,7 @@ handle many of the practical implementation and semantic issues.
 *** 4. Composable rule parser 
 Task here is to write a system that lets us create regex rules allowing
 composition. For example, assuming a yaml representation, we should be able to
-specifies rules like the following:
+specify rules like the following:
 
 #+BEGIN_EXAMPLE
   num:
