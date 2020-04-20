@@ -8,7 +8,7 @@
 We at Vernacular.ai use various tools to support our CCA and ASR platform, some of which are interfaces that we have created for ourselves designed specifically for our use-case. Every interface tries to solve a fundamental problem.
 
   
-
+5a8c75cdec2bf2e47208c71e6e2f988f3c2346d0
 ### Problem Statement 1
 
 Your task is to create an interface which does the following:
@@ -60,7 +60,7 @@ Your task is to create an interface which consists of the following:
       
 -   The interface will allow the user to download the generated audio file, along with the transcription which is a JSON file, You can decide what all metadata you want to save in this file apart from the text.  
       
--   For the stitched audio the user will add 1500ms of silence between the Customer and the Bot and will add 750ms between Bot and Customer.
+-   For the stitched audio the interface will add 1500ms of silence between the Customer and the Bot and will add 750ms between Bot and Customer.
 
 #### Bonus Point
 - Snippets can be swapped. 
