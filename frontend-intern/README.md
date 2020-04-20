@@ -67,10 +67,11 @@ Your task is to create an interface which consists of the following:
 - Hosting it on any service.
 
 ### Instruction for the Candidate
+-  Please note we expect this challenges to be completed with either [ReactJS](https://reactjs.org/) or [Elm Lang](https://elm-lang.org/). Angular, Vue.js and Ember or even VanillaJs will not be entertained.
+
 -  Please ensure your code is available on Github.  
       
 -  You will be judged for your approach. We also recommend using a linter to maintain code hygiene.  
 
 - Documentation explaining how to use the Interface.  
       
-- You are free to choose your JS Framework/Library to accomplish this task ( We do prefer if you can achieve this with either React(ES6+), Elm or Vanilla JS)
