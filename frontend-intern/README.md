@@ -7,8 +7,7 @@
 
 We at Vernacular.ai use various tools to support our CCA and ASR platform, some of which are interfaces that we have created for ourselves designed specifically for our use-case. Every interface tries to solve a fundamental problem.
 
-  
-5a8c75cdec2bf2e47208c71e6e2f988f3c2346d0
+
 ### Problem Statement 1
 
 Your task is to create an interface which does the following:
