@@ -24,6 +24,8 @@ Implement this API such that it is accessible only to authenticated users.
 If using python you should use Django rest framework for developing the backend. If using GoLang you can use any http framework and [GORM](http://gorm.io/).
 
 ### Instructions for the Candidate
+- Only Python/Golang should be used
+- Use any SQL database like Postgres, SQLite, etc.
 - Please ensure that code is well documented and available on github
 - Tests should also be written
 
