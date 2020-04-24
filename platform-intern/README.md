@@ -43,6 +43,7 @@ If using python you should use [Django rest framework](https://www.django-rest-f
        by email or by Google Drive, Dropbox link.
  
 -   **What does git history in Evaluation Criteria mean?**
+
        We expect you to use Git as the version control system, your code will be evaluated on the basis of your git commits.
 
 #### Reading Links
