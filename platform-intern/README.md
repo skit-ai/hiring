@@ -21,7 +21,7 @@ Implement this API for authenticating users and returning proper access tokens. 
 - `GET /home/`
 Implement this API such that it is accessible only to authenticated users.
 
-If using python you should use Django rest framework for developing the backend. If using GoLang you can use any http framework and [GORM](http://gorm.io/).
+If using python you should use [Django rest framework](https://www.django-rest-framework.org/) for developing the backend. If using GoLang you can use any http framework and [GORM](http://gorm.io/).
 
 ### Instructions for the Candidate
 - Only Python/Golang should be used
@@ -37,6 +37,6 @@ If using python you should use Django rest framework for developing the backend.
 
 #### Reading Links
 - https://dzone.com/articles/deep-dive-to-oauth20-amp-jwt-part-1-setting-the-st
-- https://www.djangoproject.com/
+- https://www.django-rest-framework.org/
 - https://github.com/gin-gonic/gin
 - https://jinzhu.me/gorm/
