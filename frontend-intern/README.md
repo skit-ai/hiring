@@ -9,6 +9,7 @@ Your task is to create an interface which consists of the following:
 -   A card that has two input boxes where a user can enter text.
 -   The user will then be able to record the statement he has given as inputs.
 -   The interface will provide the user with an option to listen to what they have recorded and re-record it.
+-   If the user changes the text, the previous audio should be discarded. 
 -   A card here can be viewed as a snippet of a conversation between two people.
 -   The interface will allow users to add multiple snippets by providing a button on the screen to add more snippets.
 -   The interface will also give an option to delete a snippet.
@@ -32,6 +33,23 @@ Your task is to create an interface which consists of the following:
 - Completeness of the question
 - Code quality and use of a linter
 - Git history
+
+### FAQ
+ - *Do I have to use any kind of Text to Speech Service?*
+    No, the interface should allow user to record the statement they've written.
+
+-  *If the user edits an input field which has already been recorded, do we need to discard the original recording?*
+    Yes.
+
+-  *How do I submit the assignment after it's completion?*
+      You are expected to either put the code on Github/Gitlab private repo, where you can add
+       us as a collaborator or you can compress the  project(along with .git folder) and send it either 
+       by email or by Google Drive, Dropbox link.
+ 
+-   *What does git history in Evaluation Criteria mean?*
+       We expect you to use Git as the version control system, your code will be evaluated on the basis of your git commits.
+
+
 
 ### Reading Links
 - https://guide.elm-lang.org/
