@@ -1,0 +1,12 @@
+//os version
+lsb_release -a
+//kernel version
+uname -r
+//cpu virtual cores
+dmidecode -t4 | less
+//RAM
+dmiodecode -t17 | less
+//networking
+lshw -C network
+//disk space
+df -k
