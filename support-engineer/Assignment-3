@@ -1,0 +1,3 @@
+#!/bin/sh
+find $HOME/hiring/ -type f -mtime $1 -name "*.wav" -exec ls -lah {} + >> log.txt
+find $HOME/hiring/ -type f -mtime $1 -name "*.wav" | xargs rm
