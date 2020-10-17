@@ -41,6 +41,11 @@ Deliverables:
 
 Extra points if you can write a [helm chart](https://helm.sh/docs/) for the same (`values.yaml` should contain variables such as image name and version).
 
+Deliverables:
+- A file containing relevant kubernetes object
+- A README file with instructions to run application on a kubernetes cluster
+- For helm, submit a complete helm chart along with instructions to run on a kubernetes cluster.
+
 ##### Learning Resources
 - [Kubernetes](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/)
 
