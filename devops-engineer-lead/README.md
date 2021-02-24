@@ -1,9 +1,4 @@
-# DevOps Engineer Lead Role
-
-[Job Description](https://angel.co/company/vernacular-ai/jobs/688446-support-engineer). The interview process involves following:
-1. A phone call screening round
-2. Assignment and Hangouts Call
-3. Finally Face to Face Interview in our office
+# Senior DevOps Engineer Role
 
 In this document we keep few questions for assignment rounds.
 
