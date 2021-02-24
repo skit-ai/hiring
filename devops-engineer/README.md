@@ -5,12 +5,15 @@ In this document we keep few questions for assignment rounds.
 ### 1. Docker
 Docker is a tool to create, deploy, and run applications by using containers. It allows a developer to package up an application with all of the parts it needs, such as libraries and other dependencies thus allowing him/her to `Build once Run Anywhere`.
 
-You have to write a [Dockerfile](https://docs.docker.com/engine/reference/builder/) with **Ubuntu 16.04** as a base image. The image should have following packages present:
-- telnet
-- curl
-- ffmpeg
+`assignment/main.go` is an http server written in Golang. 
 
-Finally, when running a container from the docker image, it should launch with `bash`.
+You have to write a [Dockerfile](https://docs.docker.com/engine/reference/builder/) for the same. 
+
+
+Dockerfile should have:
+- minimal base image requirement to run the go application
+- multi-stage build
+- an executable to run by default when starting the container
 
 Deliverables:
 - A Dockerfile
@@ -20,22 +23,28 @@ Deliverables:
 - https://docs.docker.com/
 - https://training.play-with-docker.com/beginner-linux/
 
+--- 
 
-### 2. Auditing Hardware
-We work with companies that require our solution to be deployed on premise. For that we receive hardware, and auditing that hardware becomes important part of our deployment process.
+### 2. Deploy above application using Kubernetes
 
-Write a bash script to audit the following hardware spec in [RHEL](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux). The script should print out following specifications:
-- OS version
-- Kernel version
-- CPU - Virtual cores (ratio to physical cores if possible)
-- CPU - Clock speed
-- CPU - Architecture
-- RAM
-- Networking - Bandwidth
-- Networking - OS Firewall (Allowed Ports & Protocols)
-- Networking - Network Firewall (Allowed Ports & Protocols)
-- Disk - Mounted/Unmounted volumes, type, storage
+[Kubernetes](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/) is a portable, extensible, open-source platform for managing containerized applications. 
 
+- Write a [kubernetes deployment](https://kubernetes.io/docs/concepts/overview/working-with-objects/kubernetes-objects/) object having two replicas (pods) of the above application.
+- Load balance the pods using a [service](https://kubernetes.io/docs/concepts/services-networking/service/). Expose service at port 31000.
+
+**Tip**: Push image to [dockerhub](http://dockerhub.com/) for your convenience.
+
+Extra points if you can write a [helm chart](https://helm.sh/docs/) for the same (`values.yaml` should contain variables such as image name and version).
+
+Deliverables:
+- A file containing relevant kubernetes object
+- A README file with instructions to run application on a kubernetes cluster
+- For helm, submit a complete helm chart along with instructions to run on a kubernetes cluster.
+
+##### Learning Resources
+- [Kubernetes](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/)
+
+---
 
 ### 3. Managing Disk Space
 We provide call center automation as one of our products. Essentially it processes user's audio and return a correct audio response. For managing all these audios that are generated in the due process we use [NFS](https://en.wikipedia.org/wiki/Network_File_System). With the call volumes we have, it essential that disk space of NFS should be managed properly.
