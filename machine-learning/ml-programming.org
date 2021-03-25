@@ -1,22 +1,9 @@
-#+TITLE: ML role for Programmers
-
-#+BEGIN_QUOTE
-  NOTE: The process is in development so things here might change.
-#+END_QUOTE
-
-[[https://angel.co/company/vernacular-ai/jobs/650173-machine-learning-role-for-software-engineers][Job description]]. The interview process involves the following:
-
-1. A phone screening round.
-2. Programming round where we decide a problem beforehand and build it during a
-   1 hour screen-shared call.
+#+TITLE: ML Programming
 
 #+BEGIN_QUOTE
 The idea of a pair programming task list is inspired from a similar method used
 by [[https://www.recurse.com/pairing-tasks][the Recurse Center]].
 #+END_QUOTE
-
-In this document, we keep a few notes for the programming round and a list of
-tasks which can be proposed to the candidate for the call.
 
 ** General instructions
 - A =task= is defined as specification of a program, the basic version of which
