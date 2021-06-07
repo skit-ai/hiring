@@ -1,0 +1,692 @@
+text,truth,prediction
+is there any discount available for early early bird discount,early-bird-definition,early-bird-definition
+open x,restaurant-timings,_cancel_
+I want to book for two elder tomorrow,booking-new,booking-new
+7 o'clock,_misc_,_misc_
+yes yes,_confirm_,_confirm_
+hello,_greeting_,_greeting_
+what is the price for non veg buffet on Thursday that is today,price,price
+two people to people,_misc_,_misc_
+yes you can book for 2:30,booking-new,booking-new
+darawni Bhoot,restaurant-menu,restaurant-menu
+hello,_greeting_,_greeting_
+ok river I want to book a table for 7,booking-new,booking-new
+hello,_greeting_,_greeting_
+expect,restaurant-availability,restaurant-availability
+yes,_confirm_,_confirm_
+Virar,_misc_,early-bird-definition
+is what is the fusion available there,restaurant-menu,restaurant-menu
+yes I would,_confirm_,_confirm_
+Korum Mall Korum Mall,_misc_,_misc_
+7 angles lunkad,_misc_,_misc_
+occupy people,booking-new,booking-new
+no thanks to check whether there is a discount for birthday from to,offers,offers
+Worli,_misc_,_misc_
+for enquiry,enquiry,enquiry
+I need to enquire about Kalyan Barbeque Nation,enquiry,enquiry
+know the cost of the non veg buffet,price,price
+7 pm,_misc_,_misc_
+any location Which is near me,restaurant-location,restaurant-location
+no thank you bye,_cancel_,_cancel_
+no,_cancel_,_cancel_
+we want to make a reservation now what,booking-new,_cancel_
+today dinner at 6,_misc_,_misc_
+hello,_greeting_,_greeting_
+Lenovo tab prices,price,price
+are you open today,restaurant-open,restaurant-open
+Mujhe I want to book a table,booking-new,booking-new
+not today tomorrow I am talking about tomorrow,_misc_,_misc_
+pricing,price,price
+pricing,price,price
+hello,_greeting_,_greeting_
+which station Palm Beach Road 1,_misc_,early-bird-pricing
+I want to contact your Rajkot branch,restaurant-confirmation,restaurant-confirmation
+Eternity Mall Nagpur,_misc_,_misc_
+hello,_greeting_,_greeting_
+CS executive,talk-agent,talk-agent
+yes,_confirm_,_confirm_
+hello,_greeting_,_greeting_
+Barbeque Nation Wakad near Bangalore Pune Highway,_misc_,_misc_
+bubble,_misc_,_misc_
+hello,_greeting_,_greeting_
+6 number,_misc_,_misc_
+the price for tomorrow's lunch Buffet,price,price
+1:30 p.m.,_misc_,availability-alcohol
+Noida Sector 16,_misc_,_misc_
+hello,_greeting_,_greeting_
+yes,_confirm_,_confirm_
+no,_cancel_,_cancel_
+I need to know about David there right now,offers,offers
+I would like to block I would like to block a table book a table for today lunch,booking-new,booking-new
+yes,_confirm_,_confirm_
+hello,_greeting_,_greeting_
+wap,_confirm_,_confirm_
+booking,booking-new,booking-new
+now,_misc_,_misc_
+today in afternoon for lunch,_misc_,_misc_
+customer service,talk-agent,talk-agent
+actually I have already booked the table today for 7 o'clock I want to include an individual,booking-modify,booking-modify
+Facebook table,_cancel_,_cancel_
+no thanks,_cancel_,_cancel_
+hello,_greeting_,_greeting_
+hello home,_greeting_,_greeting_
+second office,_misc_,_misc_
+six,_misc_,_confirm_
+hello,_greeting_,_greeting_
+I would like to know about pricing,price,price
+hello hello hello,_greeting_,_greeting_
+R Mall Mulund West,_misc_,_misc_
+Sakinaka,_misc_,_misc_
+fifteen,_misc_,_misc_
+query,enquiry,enquiry
+I want to know your pricings,price,price
+no thank you image,_cancel_,_cancel_
+I am planning to check content,_misc_,_misc_
+is bbq open nah,restaurant-open,restaurant-open
+hello,_greeting_,_greeting_
+I want to know about the price for,price,price
+Vandana advocate book karwane ke,booking-new,booking-existing
+9:30,_misc_,_misc_
+yep,_confirm_,enquiry
+I want to change the time,booking-reschedule,booking-reschedule
+evening,_misc_,_misc_
+birthday,special-occasion,special-occasion
+booking,booking-new,offers
+price of TV,price,price
+I want to book a table,booking-new,booking-new
+NIBM,_misc_,_misc_
+hello,_greeting_,_greeting_
+yes,_confirm_,_confirm_
+no,_cancel_,_cancel_
+current champion,_misc_,_misc_
+hello,_greeting_,_greeting_
+on 3rd June 2019 3rd June for lunch,_misc_,_misc_
+hello,_greeting_,_greeting_
+Gachibowli Hyderabad,_misc_,_misc_
+yes please,_confirm_,_confirm_
+booking,booking-new,booking-new
+my query to change my reservation,booking-existing,booking-existing
+2,_misc_,_misc_
+hello,_greeting_,_greeting_
+pricing,price,price
+what is the pricing for early bird,price,price
+I like you talk to your contact person,talk-agent,talk-agent
+Belapur,_misc_,_misc_
+ok fine,_confirm_,_confirm_
+hello,_greeting_,_greeting_
+do you have space in 2 p.m.,restaurant-availability,restaurant-availability
+Electronic City Phase 1,_misc_,_misc_
+today,_misc_,_misc_
+xxxi,_misc_,enquiry
+3,_misc_,_misc_
+I want to know about pricing,price,special-occasion
+what are the slots available,restaurant-timings,restaurant-timings
+need to reserve table in Deccan Pune at 8 p.m.,booking-new,booking-new
+Veera Desai,_misc_,_misc_
+four members,_misc_,_misc_
+can you please tell me the closing for non veg platter,price,price
+yes madam,_confirm_,_confirm_
+I want to ask about the early bird timings and rate,early-bird-timings,early-bird-timings
+no,_cancel_,_cancel_
+I want the table booking,booking-new,booking-new
+no,_cancel_,_cancel_
+book table,booking-new,booking-new
+I need to confirm my booking on 27th of July at 6 p.m. at CP,booking-status,booking-status
+around 7 or 8,_misc_,_misc_
+on 29th May,_misc_,restaurant-availability
+6 p.m.,_misc_,_misc_
+before that I want to know what is the cost for a 10 year old,price-kids,price-kids
+darshani tables are available tomorrow 22,restaurant-availability,restaurant-availability
+yes I want for 20 people,_misc_,_misc_
+today,_misc_,_misc_
+booking,booking-new,booking-new
+PVR,_misc_,_misc_
+Deccan Gymkhana,_misc_,_misc_
+no thanks,_cancel_,_cancel_
+reservation,booking-new,booking-new
+what are the timings available,restaurant-timings,restaurant-timings
+9 o'clock,_misc_,_misc_
+I want to make reservation for today,booking-new,booking-new
+what is the cost for veg and non veg,price,price
+no no no no,_cancel_,_cancel_
+Monday lunch,_misc_,_misc_
+yeah please check the booking is available or not,restaurant-availability,restaurant-availability
+are you from Sohna Road location,restaurant-location,restaurant-location
+can I speak to someone please,talk-agent,talk-agent
+what is the current price,price,price
+hello,_greeting_,_greeting_
+hello,_greeting_,_greeting_
+lunch timing around 12:30,_misc_,_misc_
+wake me know,restaurant-availability,restaurant-availability
+10 to 12,_misc_,_misc_
+exam time please extend the time we are stuck in traffic,hold-table,hold-table
+Hyderabad,_misc_,_misc_
+today evening dinner,_misc_,_misc_
+pricing,price,price
+12 p.m.,_misc_,_misc_
+hello,_greeting_,_greeting_
+we need booking for 6 people near Koramangala tantra,booking-new,booking-new
+what is a price for tomorrow's non-veg lunch,price,price
+not now I want to know the price for weekdays,price,price
+New Delhi,_misc_,_misc_
+Sayaji Pune Barbeque Nation,_misc_,_misc_
+Janakpuri,_misc_,early-bird-definition
+yes,_confirm_,_confirm_
+suffice,price,price
+yeah just wanna know the restaurant timing also are more,restaurant-timings,restaurant-timings
+hello,_greeting_,_greeting_
+hello hello hello,_greeting_,_greeting_
+Apno I want to know price for Wednesday next Wednesday afternoon,price,price
+Mumbai,_misc_,_misc_
+Jubilee Hills,_misc_,_misc_
+what is the price of Barbeque Nation today,price,price
+can you transfer me to Indiranagar Barbeque Nation,restaurant-confirmation,restaurant-confirmation
+hello,_greeting_,_greeting_
+yes,_confirm_,_confirm_
+yes,_confirm_,_confirm_
+8:30 today,_misc_,booking-cancel
+no,_cancel_,_cancel_
+Thursday,_misc_,restaurant-menu
+pricing,price,price
+location would be Virar,_misc_,_misc_
+query,enquiry,enquiry
+this Sunday,_misc_,_misc_
+we want to book table in Barbeque Nation,booking-new,booking-new
+motion,_cancel_,_cancel_
+yes please,_confirm_,_confirm_
+weather today,offers,offers
+yo,_cancel_,_cancel_
+what about rates after 7,price,price
+what is the cost,price,price
+yes,_confirm_,_confirm_
+Madurai,_misc_,_misc_
+what is the price of each person,price,price
+what is the price of person for tomorrow's booking,price,price
+booking cancellation,booking-cancel,booking-cancel
+yes,_confirm_,_confirm_
+I want to talk to the manager,talk-agent,talk-agent
+yes,_confirm_,_confirm_
+hello,_greeting_,_greeting_
+4 pipe,_misc_,_misc_
+hello hello hello,_greeting_,restaurant-availability
+3,_misc_,_misc_
+I want to go to Janakpuri,_misc_,_misc_
+hello,_greeting_,_greeting_
+ya is there any discounts on it,offers,offers
+I want to visit in Forum Mall Hyderabad,_misc_,_misc_
+looking,booking-new,booking-new
+hello,_greeting_,_greeting_
+Janakpuri,_misc_,_misc_
+no,_cancel_,_cancel_
+Coimbatore,_misc_,_misc_
+hello,_greeting_,_greeting_
+I booked the table kindly increase the time for 15 minutes,booking-modify,booking-modify
+Deccan Gymkhana Barbeque Nation,_misc_,_misc_
+Monday what is the price Monday,price,price
+no,_cancel_,_cancel_
+yes,_confirm_,_confirm_
+Gachibowli,_misc_,_misc_
+please your mind people,_misc_,_misc_
+630 approximate for 13 adults or two childrens,_misc_,_misc_
+tomorrow,_misc_,_misc_
+10:30,_misc_,_misc_
+hello,_greeting_,_greeting_
+whats up price today dinner per person,price,price
+pricing,price,price
+Maithili I wanted to book the table right now,booking-new,booking-new
+I want to book seat for one person,booking-new,booking-new
+tomorrow 8:00 p.m.,_misc_,_misc_
+what what is the price of INR today,price,price
+hello,_greeting_,_greeting_
+booking booking booking,booking-new,booking-new
+main location hemorrhage artist I am take care in New Alipore on Mujhe Park Street mein jo Barbeque Nation happy birthday,restaurant-location,restaurant-location
+what about Children's,price-kids,early-bird-definition
+8:30 today,_misc_,_misc_
+6 adult 3 children,_misc_,early-bird-definition
+hello,_greeting_,_greeting_
+pricing,price,price
+Grand Mall Gurgaon,_misc_,_misc_
+can you tell me about the prices at Bandra Bandra,price,price
+8:30 p.m. today,_misc_,hold-table
+Wakad Barbeque Nation Sayaji,_misc_,_misc_
+Barbeque Nation Nagpur,_misc_,_misc_
+yes,_confirm_,booking-reschedule
+is there any offer,offers,offers
+Electronic City,_misc_,_misc_
+I want to ask about rate,price,price
+hello,_greeting_,_greeting_
+I would like to visit on Sunday evening,booking-new,booking-new
+R Mall Mulund R Mall Mulund,_misc_,_misc_
+pricing,price,price
+preservation,booking-new,booking-new
+I want to set a pricing for today Tuesday,price,price
+bus badhiya somewhere close to Rajiv Chowk,_misc_,_misc_
+Srinagar reservation at ATM,_misc_,_misc_
+what is the price of buffet,price,price
+booking search,booking-new,booking-new
+I want to today please check that,_misc_,early-bird-timings
+free,_misc_,_misc_
+yes,_confirm_,_confirm_
+today evening weather,_misc_,_misc_
+Nerul,_misc_,_misc_
+yes I would like to book a table,booking-new,booking-new
+call Thane West,_misc_,_misc_
+yes teacher,_confirm_,_confirm_
+Kalyan Matka,price,price
+I'm looking for a table booking,booking-new,booking-new
+hello,_greeting_,_greeting_
+Chu,_misc_,_misc_
+what are the dinner prices per person,price,price
+after 15 minutes,_misc_,_misc_
+hello,_greeting_,_greeting_
+no,_cancel_,_cancel_
+ok I just wanted to ask that which time can we forgot the dinner,restaurant-timings,restaurant-timings
+Indiranagar,_misc_,_misc_
+Chennai Chrompet,_misc_,restaurant-open
+yes please check 43,_confirm_,_confirm_
+forum Sujana Mall,_misc_,_misc_
+can you please connect me to any of your,talk-agent,talk-agent
+no thank you,_cancel_,_cancel_
+no,_cancel_,_cancel_
+what is the price for,price,price
+no,_cancel_,_cancel_
+hello,_greeting_,price-kids
+mobile price of today,price,price
+Barbeque Nation Atria Mall,_misc_,_misc_
+what is the direction and what is the address of Barbeque Nation,restaurant-location,restaurant-location
+30 22 30,_misc_,_misc_
+no thank you,_cancel_,_cancel_
+Amanora Mall Amanora,_misc_,_misc_
+7:30,_misc_,_misc_
+Banjara Hills,_misc_,_misc_
+lunch,_misc_,_misc_
+Robot fight,price,price
+hello,_greeting_,_greeting_
+I want to make a booking at barbeque nation,booking-new,booking-new
+I wanted to do a booking in bbq nation Koramangala,_misc_,_misc_
+no no no,_cancel_,_cancel_
+hello what is the non veg and veg lunch price for a 10 year kids,price,price
+hello,_greeting_,_greeting_
+news,_confirm_,_confirm_
+FB,_confirm_,_confirm_
+wanted to know regarding pricing,price,price
+Sri Lanka,_misc_,_misc_
+about pricing,price,price
+I want to know the prices for Saturday night Buffet,price,price
+just wanted to know in Rajajinagar how much it will cost,price,price
+yes yes,_confirm_,_confirm_
+Core,_misc_,_misc_
+love,_greeting_,_greeting_
+Atria Mall Worli,_misc_,_misc_
+yeah,_confirm_,_confirm_
+12,_misc_,_misc_
+hello,_greeting_,_greeting_
+no,_cancel_,_cancel_
+6:30 I get back,_cancel_,_cancel_
+I want to book a table for 4 at Ludhiana outlet tonight,booking-new,booking-new
+thank you no thank,_cancel_,_cancel_
+hi I would like to table for 3,booking-new,booking-new
+good luck to book reminder for tomorrow buffet lunch but,booking-new,booking-new
+no,_cancel_,_cancel_
+hi I just wanted to know if you accept the meal voucher,offers,offers
+pipe,_misc_,_misc_
+net plans for dinner in Lucknow,_misc_,price-kids
+1 Coimbatore Barbeque Nation number I want please book two persons,booking-new,booking-new
+no 89,_cancel_,_cancel_
+anything is there,early-bird-definition,early-bird-definition
+4 member,_misc_,_misc_
+Town Hall,_misc_,_misc_
+I want to find out that is it alcoholic isotonic with velcro,availability-alcohol,availability-alcohol
+Wakad Pune,_misc_,_misc_
+what's the price for today,price,price
+I want to know what is the price for veg and non veg dinner buffet,price,booking-status
+hello yeah I want to know about my any student offer that is going on in in bbq nation of that showing showing the answers,offers-student,offers-student
+I need to Reserve a table for two at 12 p.m.,booking-new,booking-new
+yes,_confirm_,_confirm_
+thirteen,_misc_,_misc_
+I want to book a table for 5 people,booking-new,booking-new
+I want to book a reservation,booking-new,booking-new
+are you hello,_greeting_,_greeting_
+1:30 p.m.,_misc_,_misc_
+I have already booked I just need query,enquiry,enquiry
+today today,_misc_,_misc_
+Jangpura,_misc_,_misc_
+no tomorrow is a next month I would like to have the quotation,_misc_,_misc_
+total number four,_misc_,_misc_
+wanted to speak to the customer care,talk-agent,talk-agent
+doctor qualification,talk-agent,talk-agent
+7:30,_misc_,_misc_
+hello,_greeting_,_greeting_
+tomorrow 9:30,_misc_,_misc_
+I have a booking in Indiranagar Bangalore I have not received any confirmation,booking-status,booking-status
+yes,_confirm_,_confirm_
+8 p.m. today,_misc_,_misc_
+hello I want to know the charges for 2 people,price,price
+I was joking for reservation,booking-new,booking-new
+yes I would like to know the price for dinner buffet,price,price
+thanks of Sunday Sunday,_misc_,_misc_
+yes,_confirm_,_confirm_
+what is the booking rate,price,price
+Purnia Mall,_misc_,_misc_
+hello,_greeting_,enquiry
+5,_misc_,_misc_
+nothing to come,_cancel_,_cancel_
+hello,_greeting_,_greeting_
+looking to book for a party,booking-new,booking-new
+book my table,booking-new,booking-new
+Khaja Nawaz Khan road,_misc_,_misc_
+today evening,_misc_,_misc_
+Worli Atria Mall,_misc_,_misc_
+Amanora Mall Pune,_misc_,_misc_
+I want to book table at the Sayaji Barbeque Nation,booking-new,booking-new
+till what time it will be open in,restaurant-timings,restaurant-timings
+hello,_greeting_,_greeting_
+Tari,_repeat_,_repeat_
+Kalyan Nagar,_misc_,_misc_
+Gmail,_misc_,_misc_
+booking cancel,booking-cancel,booking-cancel
+Barbeque Barbeque Nation Deccan,_misc_,_misc_
+I would like to book a table for 2 people for 28th July,booking-new,booking-new
+want to make a booking in your country branch,booking-new,booking-new
+yes,_confirm_,_confirm_
+pretty,_repeat_,_repeat_
+Jangpura,_misc_,_misc_
+pricing queries,price,price
+2,_misc_,_misc_
+yes,_confirm_,restaurant-menu
+hello hello I just wanted to know about the booking at 7:30,booking-new,booking-new
+is there any offers going on in restaurant,offers,offers
+7,_misc_,_misc_
+now in 15 minutes,_misc_,_misc_
+2,_misc_,_misc_
+when can I get the next booking,restaurant-availability,talk-agent
+I wanted a reservation for two people in bbq nation Connaught Place,booking-new,booking-new
+two adults and two children,_misc_,booking-cancel
+22 person,_misc_,_misc_
+actually I have already confirm my booking but just now I received the message telling that my booking urgent,booking-existing,booking-existing
+Wednesday what are the charges in Amanora Wednesday,price,price
+Deccan Deccan Mall Pune,_misc_,_misc_
+hello yeah I have booked to open call non veg buffet,booking-existing,booking-existing
+only one person tell me how much time it will take,_misc_,_misc_
+Times Square building,_misc_,_misc_
+customer care,talk-agent,talk-agent
+hello,_greeting_,_cancel_
+hello,_greeting_,_greeting_
+gayak Chandigarh,_misc_,_misc_
+hello,_greeting_,booking-reschedule
+pictures,_confirm_,_confirm_
+no I want to book for tomorrow,booking-new,booking-new
+offers,offers,offers
+hello I want to book a table for,booking-new,booking-new
+afternoon,_misc_,_misc_
+is there any corporate offers for a group of people around the 2015,offers-corporate,offers-corporate
+can you give me the price details,price,price
+yes you may,_confirm_,_confirm_
+hello I just wanted to book the reservation for tomorrow,booking-new,booking-new
+hello,_greeting_,_greeting_
+I need to book a slot in Nellore Andhra Pradesh,booking-new,booking-new
+8:30 p.m.,_misc_,_misc_
+I need to make an order register,booking-new,booking-new
+what is the price for today lunch in City Centre 2 branch,price,price
+Janakpuri,_misc_,_misc_
+Worli,_misc_,_misc_
+6 number phone number,_misc_,_misc_
+just let me know the age for Saturday Sunday,price,price
+hello,_greeting_,_greeting_
+booking,booking-new,booking-new
+right now,_misc_,_misc_
+India restaurant is open for dining in,restaurant-open,restaurant-open
+Prozone mall,_misc_,_misc_
+we want to book a table,booking-new,booking-new
+type I have a booking tomorrow the booking ID is 133 7542,booking-existing,booking-existing
+booking for 4 for lunch at 230 short,booking-new,booking-new
+are you from,restaurant-confirmation,restaurant-confirmation
+Chennai Chrompet,_misc_,_misc_
+hello,_greeting_,_greeting_
+hello,_greeting_,_greeting_
+afternoon time,_misc_,_misc_
+I need to know the reservation charges for Friday,price,price
+yes,_confirm_,_confirm_
+Bhubaneswar,_misc_,_misc_
+I would like to book a table for tonight can help,booking-new,booking-new
+we want to book a table,booking-new,booking-new
+7,_misc_,_misc_
+Sector 26 Chandigarh,_misc_,_misc_
+hello I want to book a table for two,booking-new,booking-new
+pricing,price,price
+I just want to check two days wait for lunch and dinner,restaurant-availability,restaurant-availability
+table for me for two people,booking-new,booking-new
+10:30 p.m.,_misc_,_misc_
+want to place of reservation,booking-new,booking-new
+hello I am at 9:45 p.m. you can you confirm my booking,booking-status,booking-status
+actually table for two,booking-new,booking-new
+lovers,_greeting_,_greeting_
+today 7:00 p.m.,_misc_,_misc_
+may I know the pricing of Barbeque Nation,price,price
+today,_misc_,_misc_
+what do you have for a complimentary chatting,restaurant-menu,restaurant-menu
+timing,restaurant-timings,restaurant-timings
+actually I was trying to book table but I've already booked online thank you so much,booking-existing,booking-existing
+hello,_greeting_,_greeting_
+2,_misc_,_misc_
+Amanora,_misc_,_misc_
+yes,_confirm_,restaurant-availability
+MI note charger for the Buffet,price,_cancel_
+customer care executive,talk-agent,talk-agent
+I request I request a great time of another 20 minutes to reach the place I am on the way my booking at 7:30 my name is show them so please give me a great fun,booking-reschedule,booking-reschedule
+pricing,price,price
+I just want to know the to confirm also the cost of the existing table,price,price
+hello,_greeting_,_greeting_
+pricing,price,price
+hello,_greeting_,_greeting_
+Barbeque Nation,_misc_,_misc_
+yes,_confirm_,_confirm_
+BF,_confirm_,_confirm_
+how much,_misc_,_misc_
+hello,_greeting_,_greeting_
+Park stage,_misc_,_misc_
+table,booking-new,booking-new
+afternoon,_misc_,_misc_
+yes please,_confirm_,_confirm_
+hello hello,_greeting_,restaurant-availability
+no,_cancel_,_cancel_
+I want to confirm my booking for today,booking-status,booking-status
+Pimpri,_misc_,_misc_
+7 p.m.,_misc_,_misc_
+prepositions,price,price
+hello,_greeting_,_greeting_
+Saket Saket,_misc_,_misc_
+12:45,_misc_,_misc_
+hello,_greeting_,booking-existing
+hello hello hello,_greeting_,booking-modify
+Vijayawada,_misc_,_misc_
+no today,_cancel_,_cancel_
+hello,_greeting_,_greeting_
+I want to know about the salt lake Barbeque Nation outlet,enquiry,enquiry
+12:00 p.m. 12:00 p.m.,_misc_,talk-agent
+booking,booking-new,booking-new
+hello,_greeting_,_greeting_
+I want to know about the my confirmation today India have booked for the table at 6:30 to 7:00 o'clock,booking-status,booking-status
+I need to know if Cocktail is available like liquor or beer available in this,availability-alcohol,early-bird-pricing
+xx,_misc_,_misc_
+I want to know the contact,enquiry,enquiry
+tonight,_misc_,_misc_
+Bandra Mumbai,_misc_,_misc_
+price,price,price
+hello,_greeting_,_greeting_
+Ghodbunder Road Ghodbunder Road,_misc_,_misc_
+yes please,_confirm_,_confirm_
+hello,_greeting_,_greeting_
+Koramangala Bharti Ganesha Bangalore,_misc_,_misc_
+want to book a table on 8th of June,booking-new,booking-new
+hello,_greeting_,_greeting_
+want to book a table for 4 at the X outlet at Andheri East Mumbai new directors for the same thank you,booking-new,booking-new
+no we don't want to book now but we want to ask weather,_cancel_,_cancel_
+1 to confirm the amount for gas booking,booking-existing,booking-existing
+please check and let me know,_confirm_,_confirm_
+it's Sunrise very Lake Mall,_misc_,_misc_
+12:30,_misc_,_misc_
+7:30 evening,_misc_,_misc_
+JP Nagar,_misc_,_misc_
+I would like to know the booking for tomorrow at Gachibowli in the name of Gaurav for 15 peoples is it confirm,booking-new,booking-new
+I want to make a reservation in bbq nation,booking-new,booking-new
+any competition anymore,offers,offers
+in the evening,_misc_,_misc_
+I need a table booking for 3 at barbeque nation Nungambakkam,booking-new,booking-new
+pricing populate on,price,price
+bye,_misc_,_misc_
+lunch 222,_misc_,_misc_
+let me talk to your customer executive,talk-agent,talk-agent
+Rajaji Nagar,_misc_,_misc_
+9,_misc_,_misc_
+Arham is it for today's dinner we come before 7,price,price
+is it open or closed,restaurant-open,restaurant-open
+2nd June,_misc_,_misc_
+hello,_greeting_,_greeting_
+four,_misc_,_misc_
+can you just repeat the price again please,_repeat_,_repeat_
+booking,booking-new,booking-new
+Bhojpuri is there a 45 years or not,price-kids,restaurant-open
+hello are you talking from Barbeque Nation,restaurant-confirmation,restaurant-confirmation
+yes I want contact number for that,talk-agent,talk-agent
+hello,_greeting_,_greeting_
+Nagpur,_misc_,_misc_
+yes,_confirm_,_confirm_
+Vasantkunj New Delhi,_misc_,_misc_
+Pune Pimpri,_misc_,_misc_
+right now,_misc_,restaurant-availability
+hello,_greeting_,_greeting_
+Nungambakkam,_misc_,_misc_
+hello,_greeting_,_greeting_
+National Open tomorrow,restaurant-open,restaurant-open
+is there a beer or something available,availability-alcohol,availability-alcohol
+JP Nagar,_misc_,_misc_
+yes,_confirm_,_confirm_
+a table for two on Saturday at 1 o'clock in Indiranagar,booking-new,booking-new
+outlet timing,restaurant-timings,restaurant-timings
+can I have a reservation for today dinner,booking-new,booking-new
+2,_misc_,_misc_
+hello,_greeting_,_greeting_
+Porbandar,_misc_,_misc_
+Lokhandwala,_misc_,_misc_
+I just want to know whether Barbeque Nation Diamond Plaza mall will be open on,restaurant-open,restaurant-open
+hi I would like to know the early bird dinner offer for Friday that is tomorrow,early-bird-pricing,early-bird-pricing
+Banjara Hills,_misc_,_misc_
+Bandra,_misc_,_misc_
+Thane,_misc_,_misc_
+hello hello,_greeting_,_greeting_
+Chennai Porur,_misc_,_misc_
+knowledge book,price,price
+is the best open today,restaurant-open,restaurant-open
+yes,_confirm_,_confirm_
+what is the rate current rate for adult,price,price
+I need the booking for Friday,booking-new,booking-new
+yes yes,_confirm_,_confirm_
+I know the menu for tomorrow for lunch what are the charges,restaurant-menu,enquiry
+how to make a reservation,booking-new,booking-new
+wire that one side,_misc_,_misc_
+cosmic Saturday,price,price
+I need to book seat for the 9:30,booking-new,booking-new
+hello,_greeting_,_greeting_
+what is the cost of the buffet dinner tonight,price,price
+Barbeque Nation,_misc_,_misc_
+hello hi kya,enquiry,enquiry
+NSP Netaji Subhash Palace,_misc_,_misc_
+yes,_confirm_,_confirm_
+today 10:00 p.m.,_misc_,_misc_
+7:30,_misc_,_misc_
+no,_cancel_,_cancel_
+pricing,price,price
+hello,_greeting_,_greeting_
+12 p.m.,_misc_,_misc_
+I don't want to talk to you I want to speak to an agent,talk-agent,talk-agent
+wanted to talk about my confirmation,booking-status,booking-status
+yep booking is available for 2 person,restaurant-availability,restaurant-availability
+book table,booking-new,booking-new
+hello,_greeting_,_greeting_
+sir Saturday ki booking chahie,booking-new,booking-new
+member,_misc_,_misc_
+pricing,price,price
+no,_cancel_,_greeting_
+is there Ramzan festival going going on,offers,offers
+2,_misc_,_misc_
+I want to know the offer price,offers,offers
+Toyota come,_misc_,offers-corporate
+I would like to talk to customer care,talk-agent,talk-agent
+12 a.m. midnight,_misc_,_misc_
+I want to book a table in Vadapalani Barbeque,booking-new,booking-new
+no I called to cancel that because I will not be able to make it today,booking-cancel,booking-cancel
+BP hello,_greeting_,_greeting_
+Vizag,_misc_,booking-existing
+9 p.m.,_misc_,_misc_
+hi morning I want to know the price of the Buffet,price,price
+what's the price for dinner,price,price
+Yelahanka New Town,_misc_,_misc_
+Korum Mall Thane,_misc_,_misc_
+hello,_greeting_,_greeting_
+I want to know the price of,price,price
+booking,booking-new,booking-new
+veg and non veg platter,_misc_,_misc_
+Hansraj Honda Navi price of the per person which is we have to pay on booking at barbeque nation at Nagpur,price,price
+dinner,_misc_,_misc_
+101 children,_misc_,_misc_
+Hyderabad Gachibowli,_misc_,_misc_
+Amanora Pune,_misc_,booking-existing
+hello about pricing,price,price
+yes just check the table is available for 20%,restaurant-availability,price-kids
+3,_misc_,_misc_
+Worli,_misc_,_misc_
+Vivek Vihar,_misc_,_misc_
+8 p.m.,_misc_,_misc_
+what are the items available in non-veg can you please briefly,restaurant-menu,restaurant-menu
+I want to book a table with two for lunch I like to know what's the buffet range,price,price
+10,_misc_,_misc_
+cri,_misc_,_misc_
+3 members,_misc_,_misc_
+corporate office,offers-corporate,offers-corporate
+I want to book a table,booking-new,booking-new
+no I want 12 p.m.,_misc_,_misc_
+Chetan tell me check check and tell me,_confirm_,_confirm_
+yes,_confirm_,_confirm_
+it's regarding Aalo is triggering pricing on Sundays,price,price
+your son is open,restaurant-open,restaurant-open
+is the price 3 for today the bakrid 2016,price,price
+yes,_confirm_,_confirm_
+I want to leave a table for two in the Nashik,booking-new,booking-new
+10 o'clock,_misc_,_misc_
+Jo aapke Aap Par guitar request hai uski office ki matlab kitne charges per person,price,price
+I'm excellent,_misc_,_misc_
+I need to know the office,offers,offers
+10,_misc_,_misc_
+pricing,price,price
+yes,_confirm_,_confirm_
+what is the charges of pyramid and peeped,price,price
+yes,_confirm_,_confirm_
+hello,_greeting_,_greeting_
+no I want to know the dinner price,price,price
+hello,_greeting_,_greeting_
+9 p.m.,_misc_,_misc_
+yes,_confirm_,_confirm_
+no no no thank you so much that's all right,_cancel_,_cancel_
+CTET,_confirm_,_confirm_
+hello Ramya,_greeting_,_greeting_
+how much in one knowledge and one which taxes cost,price,price
+Mumbai,_misc_,_misc_
+enquiry,enquiry,enquiry
+lo,_cancel_,_cancel_
+2,_misc_,_misc_
+yes,_confirm_,_confirm_
+hello hello,_greeting_,_greeting_
+Marshall,_misc_,_misc_
+we need to book tickets to table for two persons hello,booking-new,booking-new
+Durgapur,_misc_,_misc_
+actually we are planning for a birthday party so we have to know the price is right for the cake and,price,price
+what is the star hello,price,_misc_
+tomorrow will ecity Electronic city branch is open,restaurant-open,restaurant-open
+Chalo,_greeting_,_greeting_
+reservation for 2 people,booking-new,booking-new
+yes,_confirm_,_confirm_
+need to book a table photo,booking-new,booking-new
+kyon,_greeting_,_greeting_
+I just want some more queries to be cleared,enquiry,enquiry
+7:30 p.m.,_misc_,_misc_

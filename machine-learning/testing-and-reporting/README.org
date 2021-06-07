@@ -1,0 +1,84 @@
+#+TITLE: testing-and-reporting
+
+While developing Machine Learning systems, we want to keep evaluating the model
+on a certain slice of test set where good performance is important. Every change
+in model should go through a [[https://en.wikipedia.org/wiki/Regression_testing][regression run]], similar to software unit testing,
+before saying that the model is good for production.
+
+In this assignment, you will be building a plugin for a Python testing framework
+that enables instance based regression tests for intent classification problem.
+
+*  Situation
+You are working on an intent classification system. While you report F1 on a
+certain held-out set before deployment, people keep complaining that a few input
+cases that were working before, are not working now. While the core
+generalization performance of the model is something you can directly work on,
+you realize that there are two other problems here:
+
+1. These /few cases/ mentioned are more critical and so need special focus in
+   evaluation.
+1. A monotonic improvement in model F1 could still result in regressions in
+   cases that used to work before.
+
+To solve this, you decide to embed /these cases/ as data unit test in the regular
+unit testing process. You ask the QA team to write test cases in a CSV file like
+below and you want pytest to collect each line as a test item and run the test.
+
+#+begin_src shell :exports both
+head ./data/instances.csv
+#+end_src
+
+#+RESULTS:
+| text                                                           | truth                 | prediction            |
+| is there any discount available for early early bird discount  | early-bird-definition | early-bird-definition |
+| open x                                                         | restaurant-timings    | _cancel_                |
+| I want to book for two elder tomorrow                          | booking-new           | booking-new           |
+| 7 o'clock                                                      | _misc_                  | _misc_                  |
+| yes yes                                                        | _confirm_               | _confirm_               |
+| hello                                                          | _greeting_              | _greeting_              |
+| what is the price for non veg buffet on Thursday that is today | price                 | price                 |
+| two people to people                                           | _misc_                  | _misc_                  |
+| yes you can book for 2:30                                      | booking-new           | booking-new           |
+
+Note that in reality the output (~prediction~) will come in real time from a
+function, but for the purpose of this exercise we will keep truth also in the
+same data file.
+
+* Problem
+You read up documentation of [[https://docs.pytest.org/en/latest/][pytest]] and decide that [[https://docs.pytest.org/en/latest/writing_plugins.html][writing a plugin]] for pytest
+is a good way to move forward. The plugin is supposed to do the following:
+
++ Pick up files with names like ~test_*.csv~ under ~./tests/~ as source of test
+  cases.
++ Collect each instance in the CSVs as single test items.
++ Run assertions on truth vs prediction matching.
++ /Optionally/ produce a [[https://scikit-learn.org/stable/modules/generated/sklearn.metrics.classification_report.html][regular classification report]] as an artifact of test run.
+
+* Output
+When done, provide us access to a private Github repository with your the code.
+The code should have the following:
+
+1. Your plugin module as per pytest conventions in the code template provided
+   alongside.
+3. README with instructions on setting up and using this new testing approach.
+
+* Guidelines
++ If you are adding any dependency, make sure to specify those in the
+  installation steps. Feel free to use our [[https://github.com/Vernacular-ai/styleguide][styleguide]] where we recommend using
+  [[https://python-poetry.org/][poetry]] for package management.
++ If parts of solutions are not done, for example test discovery, feel free to
+  mock around them and mention the same in the solution README.
+
+* Evaluation Criteria
++ Working of the plugin. We will run data file provided in ~./data/~ and expect to
+  see approximately code src_bash[:exports both]{diff <(cat data/instances.csv |
+  cut -d, -f3) <(cat ./data/instances.csv | cut -d, -f2) | grep "^>" | wc -l}
+  {{{results(=48=)}}} test failures.
++ Quality of README and usage documentation.
+
+** Good to haves  
++ Optional parts of the assignment.
++ Good version control hygiene.
++ Additional features that show newly failing cases, etc.
++ Single report with classification metrics /and/ failing and recovered cases.
++ Packaged pytest module.
