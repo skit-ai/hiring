@@ -45,7 +45,7 @@ function, but for the purpose of this exercise we will keep that also in the
 same data file.
 
 ** Problem
-You read up documentation of [[https://docs.pytest.org/en/latest/][pytest]] and decide that [[https://docs.pytest.org/en/latest/writing_plugins.html][writing a plugin]] for pytest
+You read up documentation of [[https://docs.pytest.org/en/latest/][pytest]] and decide that [[https://docs.pytest.org/en/latest/how-to/writing_plugins.html][writing a plugin]] for pytest
 is a good way to move forward. The plugin is supposed to do the following:
 
 + Pick up files with names like ~test_*.csv~ under ~./tests/~ as source of test
