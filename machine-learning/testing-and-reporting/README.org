@@ -41,7 +41,7 @@ head ./data/instances.csv
 | yes you can book for 2:30                                      | booking-new           | booking-new           |
 
 Note that in reality the output (~prediction~) will come in real time from a
-function, but for the purpose of this exercise we will keep truth also in the
+function, but for the purpose of this exercise we will keep that also in the
 same data file.
 
 * Problem
