@@ -44,7 +44,7 @@ Note that in reality the output (~prediction~) will come in real time from a
 function, but for the purpose of this exercise we will keep that also in the
 same data file.
 
-* Problem
+** Problem
 You read up documentation of [[https://docs.pytest.org/en/latest/][pytest]] and decide that [[https://docs.pytest.org/en/latest/writing_plugins.html][writing a plugin]] for pytest
 is a good way to move forward. The plugin is supposed to do the following:
 
@@ -62,7 +62,7 @@ The code should have the following:
    alongside.
 3. README with instructions on setting up and using this new testing approach.
 
-* Guidelines
+** Guidelines
 + If you are adding any dependency, make sure to specify those in the
   installation steps. Feel free to use our [[https://github.com/Vernacular-ai/styleguide][styleguide]] where we recommend using
   [[https://python-poetry.org/][poetry]] for package management.
