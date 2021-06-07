@@ -71,9 +71,7 @@ The code should have the following:
 
 * Evaluation Criteria
 + *Working* of the plugin. We will run data file provided in ~./data/~ and expect to
-  see approximately code src_bash[:exports results]{diff <(cat
-  data/instances.csv | cut -d, -f3) <(cat ./data/instances.csv | cut -d, -f2) |
-  grep "^>" | wc -l} {{{results(=48=)}}} test failures.
+  see 47 test failures.
 + Program and *approach*.
 + Quality of *README and usage documentation*.
 
