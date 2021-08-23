@@ -60,7 +60,7 @@ Write a bash script to clean out all the `.wav ` audios data in `/data/audios/`f
 
 For example:
 
-A sample script should like `sh managing-disk-space.sh 10hr`
+A sample script should like `sh managing-disk-space.sh 10hrs`
 
 A sample log file `deleted-files-12-02-2020.log` will contain:
 ```shell
