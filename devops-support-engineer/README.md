@@ -34,7 +34,7 @@ Write a bash script to audit the following hardware spec in [RHEL](https://www.r
   - Kernel version
   - CPU - Virtual cores
   - CPU - Clock speed
-  - CPU - Architecture [Expected x86-64 , Highlight for x86-64]
+  - CPU - Architecture [Expected x86-64 , Highlight for other than x86-64]
   - Disk - Mounted/Unmounted volumes, type, storage
   - Private and Public IP
   - Private and Public DNS or Hostname
