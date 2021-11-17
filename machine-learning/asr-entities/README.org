@@ -1,0 +1,10 @@
+#+TITLE:  ASR to Entities
+
+Resource for the ASR n-best transcriptions to entity parsing problem. More
+details to be written later. Check the data file ~items.json~ for examples of date
+and time entity situations from an old deployment. Each example represents an
+utterance in a tuple with following 3 items:
+
+1. Utterance transcriptions and some other input that goes in the SLU system.
+2. Prediction from the system that ran during the call.
+3. Human annotation based on tog format.
