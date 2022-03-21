@@ -45,6 +45,7 @@ Deliverables:
 - [Kubernetes](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/)
 
 ---
+
 ### 3. Managing Disk Space
 We provide call center automation as one of our products. Essentially it processes user's audio and return a correct audio response. For managing all these audios that are generated in the due process we use [NFS](https://en.wikipedia.org/wiki/Network_File_System). With the call volumes we have, it essential that disk space of NFS should be managed properly.
 
@@ -70,3 +71,4 @@ audio_0010025.wav 10-02-2020T08:38:50+05:30 12-02-2020T10:18:45+05:30
 - A Shell Script.
 - A Log file.
 - A README file with instructions how to run.
+
